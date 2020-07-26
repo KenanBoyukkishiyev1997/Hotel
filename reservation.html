@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pure-css-navigation.css">
+</head>
+<body>
+
+
+    <header class="travelomnia__header">
+        <div class="container">
+          <img class="logo-nav" alt="travelomnia-logo" src="img/logo.png">
+          <div class="menu-bg"></div>
+          <div class="menu-burger">☰</div>
+          <div class="travelomnia__header__container menu-items">
+              <img class="travelomnia__header__container__logo" alt="travelomnia-logo" src="img/logo.png">
+              <div class="travelomnia__header__container__nav pure-css-nav">
+                  <nav>
+                      <ul>
+                          <li><a href="">Hotels</a></li>
+                          <li><a href="">Flights</a></li>
+                          <li><a href="">Transfers</a></li>
+                          <li><a href="">Packages</a></li>
+                          <li>
+                              <a href="">Services</a>
+                              <ul>
+                                  <li><a href="">Travel Insurance</a></li>
+                                  <li><a href="">Car rental</a></li>
+                                  <li><a href="">Visa support</a></li>
+                                  <li><a href="">Events</a></li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </nav>
+              </div>
+              <div class="travelomnia__header__container__account">
+                  <select name="language" class="travelomnia__header__container__account__language">
+                      <option value="az" class="travelomnia__header__container__account__language__option">AZ</option>
+                      <option value="en" class="travelomnia__header__container__account__language__option">En</option>
+                      <option value="ru" class="travelomnia__header__container__account__language__option">Ru</option>
+                  </select>
+      
+                  <div class="travelomnia__header__container__account__auth">
+                      <span class="travelomnia__header__container__account__auth__notify" data-notification="0">
+                          <i class="travelomnia__header__container__account__auth__notify__icon far fa-bell"></i>
+                      </span>
+                      <span class="travelomnia__header__container__account__auth__user">
+                          <span class="travelomnia__header__container__account__auth__user__name">Asiman</span>
+                          <img src="img/logo.png" alt="avatar"
+                              class="travelomnia__header__container__account__auth__user__avatar">
+                      </span>
+                  </div>
+                  <div class="travelomnia__header__container__account__noauth">
+                      <div class="pure-css-nav mb-5">
+                          <nav>
+                              <ul>
+                                  <li>
+                                      <a href="">Account</a>
+                                      <ul>
+                                          <li><a href="">Sign in</a></li>
+                                          <li><a href="">Sign up</a></li>
+                                      </ul>
+                                  </li>
+                              </ul>
+                          </nav>
+                      </div>
+                  </div>
+              </div>
+      
+          </div>
+        </div>
+      
+      </header>
+<!--Header end-->
+
+<div class="ticket-reservation-warapper">
+    <div class="ticket-reservation__header" style="background-image: url(img/Bitmap@2x.png)">
+        <div class="ticket-reservation__header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="ticket-reservation__header-item">
+                            <div class="ticket-reservation__header-item-icon">
+                                <i class="icon-c icon-transportation-up"></i> Departure
+                            </div>
+                            <h3>Rzaszow</h3>
+                            <span>Poland</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="ticket-reservation__header-item">
+                            <div class="ticket-reservation__header-item-icon">
+                                <i class="icon-c icon-transportation-up"></i> Arrival
+                            </div>
+                            <h3>Warsaw</h3>
+                            <span>Poland</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="ticket-reservation__header-item">
+                            <div class="ticket-reservation__header-item-icon">
+                                <i class="icon-c icon-user"></i> Passengers
+                            </div>
+                            <div class="ticket-reservation__header-passangers d-flex">
+                                <div>
+                                    <h3>2</h3>
+                                    <span>Adults</span>
+                                </div>
+                                <div>
+                                    <h3>1</h3>
+                                    <span>Kid</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ticket-reservation-inner">
+        <div class="container">
+            <div class="ticket-reservation__slider-area">
+                <div class="ticket-reservation__slider">
+                    <div  class="ticket-reservation__slider-heading d-flex justify-content-between">
+                        <span>Rzeszov to Warsaw</span>
+                        <a href="javascript:void(0)" class="ticket-reservation__slider-heading-hide">Hide <i class="fas fa-arrow-up"></i></a>
+                    </div>
+                    <div class="ticket-reservation__slider-wrap">
+                        <div class="ticket-reservation__slider-item">
+                            <div class="ticket-reservation__slider-item-top">
+                                <span>Cheapest</span>
+                            </div>
+                            <div class="ticket-reservation__slider-item-bottom">
+                                <small>Any date</small>
+                            </div>
+                            <input type="radio" name="ticket1" value="0">
+                        </div>
+                        <div class="ticket-reservation__slider-item">
+                            <div class="ticket-reservation__slider-item-top">
+                                <small>From</small>
+                                <p>100$</p>
+                            </div>
+                            <div class="ticket-reservation__slider-item-bottom">
+                                <small>Fri 4 Jun</small>
+                            </div>
+                            <input type="radio" name="ticket1" value="1">
+                        </div>
+                        <div class="ticket-reservation__slider-item">
+                            <div class="ticket-reservation__slider-item-top">
+                                <small>From</small>
+                                <p>100$</p>
+                            </div>
+                            <div class="ticket-reservation__slider-item-bottom">
+                                <small>Fri 4 Jun</small>
+                            </div>
+                            <input type="radio" name="ticket1" value="2">
+                        </div>
+                        <div class="ticket-reservation__slider-item">
+                            <div class="ticket-reservation__slider-item-top">
+                                <small>From</small>
+                                <p>100$</p>
+                            </div>
+                            <div class="ticket-reservation__slider-item-bottom">
+                                <small>Fri 4 Jun</small>
+                            </div>
+                            <input type="radio" name="ticket1" value="3">
+                        </div>
+                        <div class="ticket-reservation__slider-item">
+                            <div class="ticket-reservation__slider-item-top">
+                                <small>From</small>
+                                <p>100$</p>
+                            </div>
+                            <div class="ticket-reservation__slider-item-bottom">
+                                <small>Fri 4 Jun</small>
+                            </div>
+                            <input type="radio" name="ticket1" value="3">
+                        </div>
+                        <div class="ticket-reservation__slider-item">
+                            <div class="ticket-reservation__slider-item-top">
+                                <small>From</small>
+                                <p>100$</p>
+                            </div>
+                            <div class="ticket-reservation__slider-item-bottom">
+                                <small>Fri 4 Jun</small>
+                            </div>
+                            <input type="radio" name="ticket1" value="4">
+                        </div>
+                        <div class="ticket-reservation__slider-item">
+                            <div class="ticket-reservation__slider-item-top">
+                                <small>From</small>
+                                <p>100$</p>
+                            </div>
+                            <div class="ticket-reservation__slider-item-bottom">
+                                <small>Fri 4 Jun</small>
+                            </div>
+                            <input type="radio" name="ticket1" value="5">
+                        </div>
+                        <div class="ticket-reservation__slider-item">
+                            <div class="ticket-reservation__slider-item-top">
+                                <small>From</small>
+                                <p>100$</p>
+                            </div>
+                            <div class="ticket-reservation__slider-item-bottom">
+                                <small>Fri 4 Jun</small>
+                            </div>
+                            <input type="radio" name="ticket1" value="6">
+                        </div>
+                    </div>
+                <div class="ticket-reservation__slider">
+                    <div class="ticket-reservation__slider-heading d-flex justify-content-between">
+                        <span>Warsaw to Rzeszov</span>
+                        <a href="javascript:void(0)" class="ticket-reservation__slider-heading-hide">Hide <i class="fas fa-arrow-up"></i></a>
+                    </div>
+                    <div class="ticket-reservation__slider-wrap">
+                        <div class="ticket-reservation__slider-item">
+                            <div class="ticket-reservation__slider-item-top">
+                                <span>Cheapest</span>
+                            </div>
+                            <div class="ticket-reservation__slider-item-bottom">
+                                <small>Any date</small>
+                            </div>
+                            <input type="radio" name="ticket" value="0">
+                        </div>
+                        <div class="ticket-reservation__slider-item">
+                            <div class="ticket-reservation__slider-item-top">
+                                <small>From</small>
+                                <p>100$</p>
+                            </div>
+                            <div class="ticket-reservation__slider-item-bottom">
+                                <small>Fri 4 Jun</small>
+                            </div>
+                            <input type="radio" name="ticket" value="1">
+                        </div>
+                        <div class="ticket-reservation__slider-item">
+                            <div class="ticket-reservation__slider-item-top">
+                                <small>From</small>
+                                <p>100$</p>
+                            </div>
+                            <div class="ticket-reservation__slider-item-bottom">
+                                <small>Fri 4 Jun</small>
+                            </div>
+                            <input type="radio" name="ticket" value="2">
+                        </div>
+                        <div class="ticket-reservation__slider-item">
+                            <div class="ticket-reservation__slider-item-top">
+                                <small>From</small>
+                                <p>100$</p>
+                            </div>
+                            <div class="ticket-reservation__slider-item-bottom">
+                                <small>Fri 4 Jun</small>
+                            </div>
+                            <input type="radio" name="ticket" value="3">
+                        </div>
+                        <div class="ticket-reservation__slider-item">
+                            <div class="ticket-reservation__slider-item-top">
+                                <small>From</small>
+                                <p>100$</p>
+                            </div>
+                            <div class="ticket-reservation__slider-item-bottom">
+                                <small>Fri 4 Jun</small>
+                            </div>
+                            <input type="radio" name="ticket" value="3">
+                        </div>
+                        <div class="ticket-reservation__slider-item">
+                            <div class="ticket-reservation__slider-item-top">
+                                <small>From</small>
+                                <p>100$</p>
+                            </div>
+                            <div class="ticket-reservation__slider-item-bottom">
+                                <small>Fri 4 Jun</small>
+                            </div>
+                            <input type="radio" name="ticket" value="4">
+                        </div>
+                        <div class="ticket-reservation__slider-item">
+                            <div class="ticket-reservation__slider-item-top">
+                                <small>From</small>
+                                <p>100$</p>
+                            </div>
+                            <div class="ticket-reservation__slider-item-bottom">
+                                <small>Fri 4 Jun</small>
+                            </div>
+                            <input type="radio" name="ticket" value="5">
+                        </div>
+                        <div class="ticket-reservation__slider-item">
+                            <div class="ticket-reservation__slider-item-top">
+                                <small>From</small>
+                                <p>100$</p>
+                            </div>
+                            <div class="ticket-reservation__slider-item-bottom">
+                                <small>Fri 4 Jun</small>
+                            </div>
+                            <input type="radio" name="ticket" value="6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket-reservation-list">
+                <div class="ticket-reservation-list__heading">
+                    <div class="row">
+                        <div class="col-lg-8 col-sm-6">
+                            <span>294 Results soted by Cheapest</span>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="ticket-reservation-list__sort">
+                                <label for="sort">Sort by</label>
+                                <select id="sort" name="sort" class="form-control">
+                                    <option value="0">Cheapest first</option>
+                                    <option value="0">Cheapest first</option>
+                                    <option value="0">Cheapest first</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket-reservation-list__item">
+                    <div class="row">
+                        <div class="col-lg-9 col-12">
+                            <div  data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="ticket-reservation-list__item-wrap">
+                                <div class="ticket-reservation-list__item-logo">
+                                    <img src="img/ryanair.png" alt="ryanair" class="img-fluid">
+                                </div>
+                                <div class="ticket-reservation-list__item-dest">
+                                    <span>Fri 4 Jun</span>
+                                    <h2>Rzeszow</h2>
+                                    <span>19:15</span>
+                                </div>
+                                <div class="ticket-reservation-list__item-time">
+                                    <span>2h 45min</span>
+                                    <div class="ticket-reservation-list__item-line"></div>
+                                    <span class="text-green">Direct</span>
+                                </div>
+                                <div class="ticket-reservation-list__item-dest">
+                                    <span>Fri 4 Jun</span>
+                                    <h2>Warsaw</h2>
+                                    <span>19:15</span>
+                                </div>
+                            </div>
+                            <div class="collapse" id="collapseExample">
+                                <div class="card card-body">
+                                   <div class="info-div">
+                                    <img src="img/ryanair.png" alt="">
+                                    <div class="flexible ">
+                                        <div class="left"> 
+                                            <span>2h10</span>
+                                            <img src="img/distance.png" alt="">
+                                        </div>
+                                        <div class="right">
+                                           <p>
+                                            <span>20:05 </span>
+                                            <span>Warsaw</span>
+                                        </p>
+                                        <p>
+                                            <span>23:15 </span>
+                                            <span>IST Istanbul</span>
+                                        </p>
+                                        </div>
+                                    </div>
+                                   </div>
+
+                                 <div class="bg-whit">
+                                     <span>2h30</span>  <span>Connect in airport</span>
+                                 </div>
+
+                                   <div class="info-div">
+                                    <img src="img/ryanair.png" alt="">
+                                    <div class="flexible ">
+                                        <div class="left"> 
+                                            <span>2h10</span>
+                                            <img src="img/distance.png" alt="">
+                                        </div>
+                                        <div class="right">
+                                           <p>
+                                            <span>20:05 </span>
+                                            <span>Warsaw</span>
+                                        </p>
+                                        <p>
+                                            <span>23:15 </span>
+                                            <span>IST Istanbul</span>
+                                        </p>
+                                        </div>
+                                    </div>
+
+                                  <div class="arrive-info">
+                                    <p>
+                                        <span>Arrives</span>: Sun, 9 Aug 2020
+                                    <span class="border"><span>
+                                   </p>
+                                    <p> <span>Journey duration:</span> 7h30</p>
+                                  </div>
+                                   </div>
+
+                                   
+                                </div>
+                              </div>
+                            
+                            <div  class="ticket-reservation-list__item-wrap">
+                                <div class="ticket-reservation-list__item-logo">
+                                    <img src="img/ryanair.png" alt="ryanair" class="img-fluid">
+                                </div>
+                                <div class="ticket-reservation-list__item-dest">
+                                    <span>Fri 4 Jun</span>
+                                    <h2>Rzeszow</h2>
+                                    <span>19:15</span>
+                                </div>
+                                <div class="ticket-reservation-list__item-time">
+                                    <span>2h 45min</span>
+                                    <div class="ticket-reservation-list__item-line"></div>
+                                    <span class="text-green">Direct</span>
+                                </div>
+                                <div class="ticket-reservation-list__item-dest">
+                                    <span>Fri 4 Jun</span>
+                                    <h2>Warsaw</h2>
+                                    <span>19:15</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12 ticket-reservation-list__item--border-l">
+                            <div class="ticket-reservation-list__right">
+                                <ul>
+                                    <li>Deals <span>1</span></li>
+                                    <li>Transfers <span>Shelf</span></li>
+                                    <li>Passengers <span>2 adults, 1kid</span></li>
+                                    <li>Price <span class="price">55 $</span></li>
+                                </ul>
+                                <button class="btn btn-block">Select <i class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket-reservation-list__item">
+                    <div class="row">
+                        <div class="col-lg-9 col-12">
+                            <div class="ticket-reservation-list__item-wrap">
+                                <div class="ticket-reservation-list__item-logo">
+                                    <img src="img/ryanair.png" alt="ryanair" class="img-fluid">
+                                </div>
+                                <div class="ticket-reservation-list__item-dest">
+                                    <span>Fri 4 Jun</span>
+                                    <h2>Rzeszow</h2>
+                                    <span>19:15</span>
+                                </div>
+                                <div class="ticket-reservation-list__item-time">
+                                    <span>2h 45min</span>
+                                    <div class="ticket-reservation-list__item-line"></div>
+                                    <span class="text-green">Direct</span>
+                                </div>
+                                <div class="ticket-reservation-list__item-dest">
+                                    <span>Fri 4 Jun</span>
+                                    <h2>Warsaw</h2>
+                                    <span>19:15</span>
+                                </div>
+                            </div>
+                            <div class="ticket-reservation-list__item-wrap">
+                                <div class="ticket-reservation-list__item-logo">
+                                    <img src="img/ryanair.png" alt="ryanair" class="img-fluid">
+                                </div>
+                                <div class="ticket-reservation-list__item-dest">
+                                    <span>Fri 4 Jun</span>
+                                    <h2>Rzeszow</h2>
+                                    <span>19:15</span>
+                                </div>
+                                <div class="ticket-reservation-list__item-time">
+                                    <span>2h 45min</span>
+                                    <div class="ticket-reservation-list__item-line"></div>
+                                    <span class="text-green">Direct</span>
+                                </div>
+                                <div class="ticket-reservation-list__item-dest">
+                                    <span>Fri 4 Jun</span>
+                                    <h2>Warsaw</h2>
+                                    <span>19:15</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12 ticket-reservation-list__item--border-l">
+                            <div class="ticket-reservation-list__right">
+                                <ul>
+                                    <li>Deals <span>1</span></li>
+                                    <li>Transfers <span>Shelf</span></li>
+                                    <li>Passengers <span>2 adults, 1kid</span></li>
+                                    <li>Price <span class="price">55 $</span></li>
+                                </ul>
+                                <button class="btn btn-block">Select <i class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket-reservation-list__item">
+                    <div class="row">
+                        <div class="col-lg-9 col-12">
+                            <div class="ticket-reservation-list__item-wrap">
+                                <div class="ticket-reservation-list__item-logo">
+                                    <img src="img/ryanair.png" alt="ryanair" class="img-fluid">
+                                </div>
+                                <div class="ticket-reservation-list__item-dest">
+                                    <span>Fri 4 Jun</span>
+                                    <h2>Rzeszow</h2>
+                                    <span>19:15</span>
+                                </div>
+                                <div class="ticket-reservation-list__item-time">
+                                    <span>2h 45min</span>
+                                    <div class="ticket-reservation-list__item-line"></div>
+                                    <span class="text-green">Direct</span>
+                                </div>
+                                <div class="ticket-reservation-list__item-dest">
+                                    <span>Fri 4 Jun</span>
+                                    <h2>Warsaw</h2>
+                                    <span>19:15</span>
+                                </div>
+                            </div>
+                            <div class="ticket-reservation-list__item-wrap">
+                                <div class="ticket-reservation-list__item-logo">
+                                    <img src="img/ryanair.png" alt="ryanair" class="img-fluid">
+                                </div>
+                                <div class="ticket-reservation-list__item-dest">
+                                    <span>Fri 4 Jun</span>
+                                    <h2>Rzeszow</h2>
+                                    <span>19:15</span>
+                                </div>
+                                <div class="ticket-reservation-list__item-time">
+                                    <span>2h 45min</span>
+                                    <div class="ticket-reservation-list__item-line"></div>
+                                    <span class="text-green">Direct</span>
+                                </div>
+                                <div class="ticket-reservation-list__item-dest">
+                                    <span>Fri 4 Jun</span>
+                                    <h2>Warsaw</h2>
+                                    <span>19:15</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12 ticket-reservation-list__item--border-l">
+                            <div class="ticket-reservation-list__right">
+                                <ul>
+                                    <li>Deals <span>1</span></li>
+                                    <li>Transfers <span>Shelf</span></li>
+                                    <li>Passengers <span>2 adults, 1kid</span></li>
+                                    <li>Price <span class="price">55 $</span></li>
+                                </ul>
+                                <button class="btn btn-block">Select <i class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="img/logo.png" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-social-icon">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Useful Links</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Help center </a></li>
+                            <li><a href="#">Terms of use</a></li>
+                            <li><a href="#">Tours</a></li>
+                            <li><a href="#">Help center</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Latest News</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Contact</h3>
+                        </div>
+                        <ul class="contact_li">
+                            <li><a href="#">+994 123 45 67</a></li>
+                            <li><a href="#">Baku, Azerbaijan</a></li>
+                            <li><a href="#">Mon - Sat 9:00 - 18:00</a></li>
+                        </ul>
+                        <div class="subscribe-form">
+                            <form action="#">
+                                <input type="text" placeholder="Email Address">
+                                <button><i class="fab fa-telegram-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="js/mdb.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/navbar.js"></script>
+</body>
+</html>

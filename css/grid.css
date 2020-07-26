@@ -1,0 +1,113 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(5, 5vw);
+    grid-gap: 6px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px !important;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.gallery__item--2{
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+
+.gallery__item--3 {
+    grid-column-start: 6;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+.gallery__item--4 {
+    grid-column-start: 8;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+.gallery__item--5 {
+    grid-column-start: 10;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery__item--6 {
+    grid-column-start: 10;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.grid-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.grid-span{
+    font-size: 12px !important; 
+    color: grey !important;
+}
+.gird-item{
+    list-style: none !important;
+    margin: 25px;
+    font-size:13px;
+}
+
+@media only screen and (max-width: 575px){
+    .cenetr_mob{
+        text-align: center;
+    }
+}
+
+select {
+    color: black;
+    width: 100px;
+    text-align: right;
+    border: none;
+    font-size: 20px;
+    appearance: none;
+    outline: none;
+  }
+  
+ 
+  
+  
+  
+   select option {
+    padding: 0;
+  }
+
+  .btn-light.dropdown-toggle{
+      background-color: transparent !important;
+  }
+
+  .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+      width: 100px !important;
+  }
+
+  .btn-light.dropdown-toggle:focus{
+    background-color: transparent !important;
+    outline: none !important;
+  }
+
+  .btn-light:not([disabled]):not(.disabled):active, .btn-light:not([disabled]):not(.disabled).active, .show>.btn-light.dropdown-toggle{
+    background-color: transparent  !important ;
+  }
