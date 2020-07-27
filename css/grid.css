@@ -126,21 +126,63 @@ select {
   }
 
 
-  #ui-datepicker-div{
-      position: absolute !important;
-      top: 400px !important;
-  }
+  
 
   .ui-datepicker .ui-datepicker-header {
     background: transparent;
     border: none;
 }
 
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
-    background: transparent !important;
+
+
+
+ .ui-state-default{
+    background: transparent !important ;
     border: none !important;
-    text-align: center;
+    text-align: center !important;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 21px;
 }
 
+.ui-state-default:hover{
+    border: 1px solid #e0228d !important;
+    border-radius: 50%;
+   
+}
+
+
+ .ui-state-active{
+    background: #e0228d !important  ;
+    border-radius: 50%;
+    text-align: center !important;
+    color: #ffffff !important;
+    
+    
+}
+
+.ui-state-highlight{
+    border: 1px solid #ddd !important;
+    border-radius: 50%;
+    color: #ddd !important;
+}
+
+.respon{
+display: none;
+}
+
+@media only screen and (max-width:620px){
+    .respon{
+        display: block;
+        }
+
+        .txt{
+            display: none;
+        }
+
+
+        
+}
 
 

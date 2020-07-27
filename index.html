@@ -99,8 +99,8 @@
                     </span>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-12 col-12">
-                  <div class="inputWithIcon">
+                <div class="col-lg-3 col-md-12 col-12 txt">
+                  <div class="inputWithIcon ">
                     <span>
                       <i class="fas fa-calendar-week" style="float: left; padding: 20px;"></i>
                     </span>
@@ -109,12 +109,32 @@
                     
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-12 col-12">
-                  <div class="inputWithIcon">
+                <div class="col-lg-3 col-md-12 col-12 txt">
+                  <div class="inputWithIcon ">
                     <span>
                       <i class="fas fa-calendar-week" style="float: left; padding: 20px;"></i>
                     </span>
                     <input type="text" id="txtdate2" class="form-control c-datepicker" placeholder="Check in-Check out ">
+                   
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 respon">
+                  <div class="inputWithIcon ">
+                    <span>
+                      <i class="fas fa-calendar-week" style="float: left; padding: 20px;"></i>
+                    </span>
+                    <input type="text"  class="form-control c-datepicker txtdateRes" placeholder="Check in-Check out ">
+                   
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-12 respon">
+                  <div class="inputWithIcon ">
+                    <span>
+                      <i class="fas fa-calendar-week" style="float: left; padding: 20px;"></i>
+                    </span>
+                    <input type="text"  class="form-control c-datepicker txtdateRes2" placeholder="Check in-Check out ">
                    
                   </div>
                 </div>
@@ -400,11 +420,21 @@
         numberOfMonths: 2
       });
 
+      $(".txtdateRes").datepicker({
+        numberOfMonths: 1
+      });
+
       $("#txtdate2").datepicker({
         numberOfMonths: 2
       });
+
+      $(".txtdateRes2").datepicker({
+        numberOfMonths: 1
+      });
     });
   </script>
+
+  
 </body>
 
 </html>
