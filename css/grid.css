@@ -126,7 +126,10 @@ select {
   }
 
 
-  
+  #ui-datepicker-div{
+      position: absolute !important;
+      top: 300px !important;
+  }
 
   .ui-datepicker .ui-datepicker-header {
     background: transparent;
