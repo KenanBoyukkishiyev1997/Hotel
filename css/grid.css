@@ -87,7 +87,20 @@ select {
     outline: none;
   }
   
- 
+  @media only screen and (max-width:767px){
+		
+    .footer-widget{
+        text-align: center;
+    }
+
+    .footer-respons {
+       margin: 30px 0;
+    }
+
+    .footer-respons ul li{
+        width: 100% ;
+    }
+}
   
   
   

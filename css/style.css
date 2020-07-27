@@ -362,6 +362,14 @@ height: 2px;
 width: 50px;
 background: #ff5e14;
 }
+
+@media only screen and (max-width:767px){
+		
+  .footer-widget-heading h3::before {
+    content: "";
+    left: 42%;
+    }
+}
 .footer-widget ul li {
 float: left;
 width: 50%;
