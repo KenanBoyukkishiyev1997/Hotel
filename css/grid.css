@@ -124,3 +124,23 @@ select {
   .btn-light:not([disabled]):not(.disabled):active, .btn-light:not([disabled]):not(.disabled).active, .show>.btn-light.dropdown-toggle{
     background-color: transparent  !important ;
   }
+
+
+  #ui-datepicker-div{
+      position: absolute !important;
+      top: 400px !important;
+  }
+
+  .ui-datepicker .ui-datepicker-header {
+    background: transparent;
+    border: none;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+    background: transparent !important;
+    border: none !important;
+    text-align: center;
+}
+
+
+
