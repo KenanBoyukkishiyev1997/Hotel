@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/pure-css-navigation.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="/css/grid.css">
 </head>
 <body>
 
@@ -38,11 +41,11 @@
                       </ul>
                   </nav>
               </div>
-              <div class="travelomnia__header__container__account">
-                  <select name="language" class="travelomnia__header__container__account__language">
-                      <option value="az" class="travelomnia__header__container__account__language__option">AZ</option>
-                      <option value="en" class="travelomnia__header__container__account__language__option">En</option>
-                      <option value="ru" class="travelomnia__header__container__account__language__option">Ru</option>
+              <div class="travelomnia__header__container__account ">
+                  <select name="language" class="selectpicker show-tick">
+                      <option value="az" >AZ</option>
+                      <option value="en" >En</option>
+                      <option value="ru" >Ru</option>
                   </select>
       
                   <div class="travelomnia__header__container__account__auth">
@@ -113,7 +116,7 @@
                   <div class="filter_group">
                   <h5>View price as</h5>
                     <div class="form-group">
-                      <select class="form-control" id="exampleFormControlSelect1">
+                      <select class="form-control select_input selectpicker show-tick" id="exampleFormControlSelect1">
                         <option>Total stay</option>
                         <option>2</option>
                         <option>3</option>
@@ -190,38 +193,80 @@
                       </div>
                    </div>
                    <div class="filter_group">
-                   <h5>Cancellation policy</h5>
+                   <h5>Accommodation type</h5>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
-                        <label class="form-check-label" for="defaultCheck6">
-                            0 $ - 150 $
+                        <input class="form-check-input" type="checkbox" value="" id="defaultAccommodation0">
+                        <label class="form-check-label" for="defaultAccommodation0">
+                            Hotel
                         </label>
                       </div>
                       <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
-                        <label class="form-check-label" for="defaultCheck7">
-                            150 $ - 350 $
+                        <input class="form-check-input" type="checkbox" value="" id="defaultAccommodation1">
+                        <label class="form-check-label" for="defaultAccommodation1">
+                            Apartment
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultAccommodation2">
+                        <label class="form-check-label" for="defaultAccommodation2">
+                            Residence hotel
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultAccommodation3">
+                        <label class="form-check-label" for="defaultAccommodation3">
+                            Apart-hotel
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultAccommodation4">
+                        <label class="form-check-label" for="defaultAccommodation4">
+                            Bed and breakfast
+                        </label>
+                      </div>
+
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultAccommodation6">
+                        <label class="form-check-label" for="defaultAccommodation6">
+                            Hostel
                         </label>
                       </div>
                   </div>
+
+                  <div class="filter_group">
+                    <h5>Cancellation policy</h5>
+                     <div class="form-check">
+                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                         <label class="form-check-label" for="defaultCheck6">
+                             Free cancellation
+                         </label>
+                       </div>
+                       <div class="form-check">
+                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
+                         <label class="form-check-label" for="defaultCheck7">
+                             Non refundable
+                         </label>
+                       </div>
+                   </div>
+
                   <div class="filter_group">
                    <h5>Meal plan</h5>
                       <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
                         <label class="form-check-label" for="defaultCheck8">
-                            0 $ - 150 $
+                            Breakfast included
                         </label>
                       </div>
                       <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
                         <label class="form-check-label" for="defaultCheck9">
-                            0 $ - 150 $
+                            Half board
                         </label>
                       </div>
                       <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
                         <label class="form-check-label" for="defaultCheck10">
-                            0 $ - 150 $
+                            Meals not include
                         </label>
                       </div>
                     
@@ -255,6 +300,7 @@
                         <div class="col-lg-4 col-12">
                             <div class="post-wrap__img">
                                 <img src="img/hotelitem.jpg" class="img-fluid" alt="">
+                                <i onclick="selects__hearts_active(this)" class="far fa-heart fa-sm selects__hearts"></i>
                             </div>
                         </div>
                         <div class="col-lg-8 col-12">
@@ -288,6 +334,7 @@
                         <div class="col-lg-4 col-12">
                             <div class="post-wrap__img">
                                 <img src="img/hotelitem.jpg" class="img-fluid" alt="">
+                                <i onclick="selects__hearts_active(this)" class="far fa-heart fa-sm selects__hearts"></i>
                             </div>
                         </div>
                         <div class="col-lg-8 col-12">
@@ -321,6 +368,7 @@
                         <div class="col-lg-4 col-12">
                             <div class="post-wrap__img">
                                 <img src="img/hotelitem.jpg" class="img-fluid" alt="">
+                                <i onclick="selects__hearts_active(this)" class="far fa-heart fa-sm selects__hearts"></i>
                             </div>
                         </div>
                         <div class="col-lg-8 col-12">
@@ -432,5 +480,13 @@
 
 <script src="js/mdb.min.js"></script>
 <script src="js/navbar.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+
+
+<script>
+    function selects__hearts_active(x) {
+      x.classList.toggle("fas");
+    }
+    </script>
 </body>
 </html>
