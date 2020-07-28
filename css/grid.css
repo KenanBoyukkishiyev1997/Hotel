@@ -80,7 +80,7 @@
 select {
     color: black;
     width: 100px;
-    text-align: right;
+    text-align: left;
     border: none;
     font-size: 20px;
     appearance: none;
@@ -113,7 +113,7 @@ select {
   }
 
   .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
-      width: 100px !important;
+      width: 50px !important;
   }
 
   .btn-light.dropdown-toggle:focus{
@@ -220,4 +220,17 @@ display: none;
 .select_input:focus{
     border: 1px solid #ced4da !important;
     box-shadow: none;
+}
+
+.show-tick .btn{
+    padding: 10px 5px !important;
+}
+
+
+
+
+@media only screen and (max-width: 1199px){
+    .travelomnia__header__container__logo {
+        width: 4.875rem !important;
+    }
 }
