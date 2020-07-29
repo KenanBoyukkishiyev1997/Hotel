@@ -377,13 +377,13 @@
                                             <label for="first_name1">Ad</label>
                                             <input type="text" placeholder="Ehtiram" id="first_name1">
                                         </div>
-                                        <div class="user_information item2">
+                                        <div class="user_information item2 ">
                                             <label for="last_name1">Soyad</label>
                                             <input type="text" placeholder="İbrahimov" id="last_name1">
                                         </div>
                                         <div class="user_information item3">
                                             <label for="gender1">Cinsi</label>
-                                            <select class="selectpicker form-control bor" name="" id="gender1">
+                                            <select class="selectpicker form-control bor " name="" id="gender1">
                                                 <option value="gender">Kişi</option>
                                                 <option value="gender">Qadın</option>
                                             </select>
@@ -392,10 +392,19 @@
                                             <label for="citizenship1">Vətəndaşlıq</label>
                                             <input type="text" placeholder="Azerbaycanli" id="citizenship1">
                                         </div>
-                                        <div class="user_information item5">
+                                        <div class="user_information item5 txt">
                                             <label for="">Doğum tarixi</label>
                                             <div class="date_input">
                                                 <input type="text" id="txtdate1" placeholder="Doğum tarixi">
+                                                <!-- <input type="text" placeholder="Iyul">
+                                                <input type="text" placeholder="1993"> -->
+                                            </div>
+                                        </div>
+
+                                        <div class="user_information item5 respon">
+                                            <label for="">Doğum tarixi</label>
+                                            <div class="date_input">
+                                                <input type="text" id="txtRes1" placeholder="Doğum tarixi">
                                                 <!-- <input type="text" placeholder="Iyul">
                                                 <input type="text" placeholder="1993"> -->
                                             </div>
@@ -404,10 +413,19 @@
                                             <label for="">Senedin seriyasi ve nomresi</label>
                                             <input type="text" placeholder="AZE &nbsp;&nbsp; 0213456789">
                                         </div>
-                                        <div class="user_information item7">
+                                        <div class="user_information item7 txt">
                                             <label for="">Muddeti</label>
                                             <div class="date_input">
                                                 <input type="text" id="txtdate2" placeholder="Muddeti">
+                                                <!-- <input type="text" placeholder="Avqust">
+                                                <input type="text" placeholder="2024"> -->
+                                            </div>
+                                        </div>
+
+                                        <div class="user_information item7 respon">
+                                            <label for="">Muddeti</label>
+                                            <div class="date_input">
+                                                <input type="text" id="txtRes2" placeholder="Muddeti">
                                                 <!-- <input type="text" placeholder="Avqust">
                                                 <input type="text" placeholder="2024"> -->
                                             </div>
@@ -796,6 +814,13 @@
             });
             $("#txtdate2").datepicker({
                 numberOfMonths: 2,
+            });
+
+            $("#txtRes1").datepicker({
+                numberOfMonths: 1,
+            });
+            $("#txtRes2").datepicker({
+                numberOfMonths: 1,
             });
 
         })

@@ -155,10 +155,19 @@
                                         <label for="">Soyad</label>
                                         <input type="text">
                                     </div>
-                                    <div class="guest_information_input item4">
+                                    <div class="guest_information_input item4 txt">
                                         <label for="">Doğum tarixi</label>
                                         <div class="date">
                                             <input class="text-center" type="text" id="txtdate1">
+                                            <!-- <input type="text">
+                                            <input type="text"> -->
+                                        </div>
+                                    </div>
+
+                                    <div class="guest_information_input item4 respon">
+                                        <label for="">Doğum tarixi</label>
+                                        <div class="date">
+                                            <input class="text-center txtRes1" type="text">
                                             <!-- <input type="text">
                                             <input type="text"> -->
                                         </div>
@@ -222,7 +231,7 @@
                                     </div>
                                 </div>
                                 <div class="option_group">
-                                    <select class="mdb-select md-form colorful-select dropdown-warning">
+                                    <select class="selectpicker form-control">
                                         <option value="1">1 points for 3$</option>
                                         <option value="2">1 points for 3$</option>
                                         <option value="3">1 points for 3$</option>
@@ -488,9 +497,12 @@
             $("#txtdate1").datepicker({
                 numberOfMonths: 2,
             });
-            $("#txtdate2").datepicker({
-                numberOfMonths: 2,
+           
+
+            $(".txtRes1").datepicker({
+                numberOfMonths: 1,
             });
+           
 
         })
     </script>
