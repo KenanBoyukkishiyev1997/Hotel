@@ -129,7 +129,7 @@ select {
 
 
   #ui-datepicker-div{
-     margin: 50px 0;
+     margin: 30px 0;
   }
 
   .ui-datepicker .ui-datepicker-header {
@@ -254,3 +254,117 @@ display: none;
 .bootstrap-select>.dropdown-toggle{
     margin: 0;
 }
+
+.counter{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+    background-color: #fff;
+    margin: 0 1rem;
+}
+
+.form-check-input[type="checkbox"]+label{
+    margin-bottom: 2rem;
+}
+
+
+
+
+/* /////////////// */
+
+.quantity {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  .quantity__minus,
+  .quantity__plus,
+  .quantity__minus2,
+  .quantity__plus2,
+  .quantity__minus3,
+  .quantity__plus3 {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    border: 1px solid ;
+    background: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+    margin: 0 1rem;
+  }
+  
+  .quantity__minus,
+  .quantity__minus2,
+  .quantity__minus3 {
+    border-radius: 50%;
+  }
+  .quantity__plus,
+  .quantity__plus2,
+  .quantity__plus3 {
+    border-radius: 50%;
+  }
+
+  .quantity__input,
+  .quantity__input2,
+  .quantity__input3 {
+    width: 32px;
+    height: 19px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: none;
+    background: #fff;
+    color: #8184a1;
+  }
+
+  .quantity__minus:link,
+  .quantity__plus:link,
+  .quantity__minus2:link,
+  .quantity__plus2:link,
+  .quantity__minus3:link,
+  .quantity__plus3:link {
+    color: #8184a1;
+  } 
+  .quantity__minus:visited,
+  .quantity__plus:visited,
+  .quantity__minus2:visited,
+  .quantity__plus2:visited,
+  .quantity__minus3:visited,
+  .quantity__plus3:visited {
+    color: #000;
+  }
+
+  .class-link,
+  .class-link:link,
+  .class-link:visited{
+      background-color: #fff;
+      box-shadow:0 1px 3px 0 rgba(0,0,0,.25) ;
+      color: #212f3d;
+      height: 40px;
+      line-height: 40px;
+      font-size: .875rem;
+      padding: 0 8px;
+      border-radius: 20px;
+      margin: 4px;
+  }
+  
+  .class-link.active {
+    background-color: #e0228d;
+    color: #fff;
+  }
+
+  .room{
+    padding: 1rem 2rem;
+  }
+
+  .box-class{
+      display: inline-flex;
+  }

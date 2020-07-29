@@ -132,6 +132,7 @@ table tr td.day:hover {
 .cityBox{
   position: relative;
   height: 100%;
+  box-shadow: 1px 3px 3px 4px rgba(0,0,0,.5)
 }
 .cityBox img{
   width: 100%;
