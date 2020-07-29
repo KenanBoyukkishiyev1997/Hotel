@@ -202,7 +202,7 @@ display: none;
 
 
 .pagination .page-item .page-link:hover{
-    background-color: #1F94B7 !important;
+    background-color: #007bff !important;
     color: #fff !important;
     border-radius: 50%;
     width: 35px;

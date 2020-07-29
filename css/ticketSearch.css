@@ -110,7 +110,7 @@
 margin-top: 1rem;
 }
 .post-wrap .calend{
-  color: #1F94B7;
+  color: #007bff;
 }
 
 .post-wrap__title i {
@@ -133,14 +133,14 @@ margin-top: 1rem;
 
 .post-wrap__right .price {
     font-size: 40px;
-    color: #1F94B7;
+    color: #007bff;
 }
 
 .post-wrap__right .btn {
     color: #fff;
     height: 42px;
     border-radius: 15px;
-    background: #1F94B7;
+    background: #007bff;
 }
 .txt{
   margin: 5rem;

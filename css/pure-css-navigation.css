@@ -380,7 +380,7 @@ try not covering the whole window - just the slide out
   }
   
   .travelomnia__header__container > .pure-css-nav > nav > ul > li:hover {
-	background-color: #1f94b7;
+	background-color: #007bff;
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
   }
@@ -395,7 +395,7 @@ try not covering the whole window - just the slide out
   }
   
   .travelomnia__header__container > .pure-css-nav > nav > ul > li > ul {
-	background-color: #1f94b7;
+	background-color: #007bff;
 	padding: 10px 0;
 	border-radius: 0 4px 4px 4px;
   }
@@ -547,7 +547,7 @@ try not covering the whole window - just the slide out
 	width: 65px;
 	height: 50px;
 	border-radius: 25px;
-	background-color: #1f94b7;
+	background-color: #007bff;
   }
   
   .travelomnia__header__container__account__noauth {
@@ -659,7 +659,7 @@ try not covering the whole window - just the slide out
 	  z-index: 99;
 	}
 	.menu-bg {
-	  background: #1f94b7;
+	  background: #007bff;
 	  pointer-events: none;
 	  -webkit-transition: 0.3s;
 	  transition: 0.3s;

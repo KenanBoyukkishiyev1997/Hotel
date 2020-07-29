@@ -675,7 +675,7 @@ header .navbar-nav li {
 
 .ticket-reservation__slider-item.active {
     color: #fff;
-    background: #1F94B7;
+    background: #007bff;
 }
 
 .ticket-reservation__slider-item input[type=radio]{
@@ -740,7 +740,7 @@ header .navbar-nav li {
 .ticket-reservation-list__item {
   position: relative;
   margin-bottom: 30px;
-  border: 1px solid #1F94B7;
+  border: 1px solid #007bff;
 }
 
 .ticket-reservation-list__item:last-child {
@@ -776,7 +776,7 @@ header .navbar-nav li {
 }
 
 .ticket-reservation-list__item-time span {
-  color: #1F94B7;
+  color: #007bff;
   font-size: 12px;
 }
 
@@ -787,7 +787,7 @@ header .navbar-nav li {
 .ticket-reservation-list__item-line {
   width: 92px;
   height: 1px;
-  background: #1F94B7;
+  background: #007bff;
   position: relative;
 }
 
@@ -862,7 +862,7 @@ header .navbar-nav li {
     .ticket-reservation-list__right:before,
     .ticket-reservation-list__right:after {
         content: '';
-        border: solid #1F94B7;
+        border: solid #007bff;
         border-width: 0 1px 1px 0;
         display: inline-block;
         padding: 4px;
@@ -1265,7 +1265,7 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 .destpop .txtcard h4{
   font-size: 24px;
   font-weight: 600;
-  color: #1F94B7;
+  color: #007bff;
 }
 .destpop .txtcard p{
   color: #F1B640;
@@ -1365,7 +1365,7 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   color: #fff;
   height: 42px;
   border-radius: 15px;
-  background: #1F94B7;
+  background: #007bff;
 }
 
 .hotel-page .pagination {
@@ -1378,7 +1378,7 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
 .pagination .page-item.active .page-link {
   border-radius: 50%;
-  background: #1F94B7;
+  background: #007bff;
 }
 
 .pagination .page-link {
@@ -1510,7 +1510,7 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-  background-color: #1F94B7;
+  background-color: #007bff;
 }
 
 .nav-pills {
@@ -1522,13 +1522,13 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   content: "";
   width: 590px;
   height: 2px;
-  background: #1F94B7;
+  background: #007bff;
   position: absolute;
   bottom: 0;
 
 }
 .tab_panel_section .nav-item a {
-  color: #1F94B7;
+  color: #007bff;
   font-weight: bold;
 }
 
@@ -1713,7 +1713,7 @@ table .sub-level table {
 
 .collapse_header {
   padding: 17px 30px;
-  border: 1px solid #1F94B7;
+  border: 1px solid #007bff;
 }
 
 .collapse_header h5 {
@@ -2169,7 +2169,7 @@ input[type=number] {
 
 .ticket-reservation__slider-item.active {
   color: #fff;
-  background: #1F94B7;
+  background: #007bff;
 }
 
 .ticket-reservation__slider-item input[type=radio] {
@@ -2234,7 +2234,7 @@ input[type=number] {
 .ticket-reservation-list__item {
   position: relative;
   margin-bottom: 30px;
-  border: 1px solid #1F94B7;
+  border: 1px solid #007bff;
 }
 
 .ticket-reservation-list__item:last-child {
@@ -2271,7 +2271,7 @@ input[type=number] {
 }
 
 .ticket-reservation-list__item-time span {
-  color: #1F94B7;
+  color: #007bff;
   font-size: 12px;
 }
 
@@ -2282,7 +2282,7 @@ input[type=number] {
 .ticket-reservation-list__item-line {
   width: 92px;
   height: 1px;
-  background: #1F94B7;
+  background: #007bff;
   position: relative;
 }
 
@@ -2358,7 +2358,7 @@ input[type=number] {
   .ticket-reservation-list__right:before,
   .ticket-reservation-list__right:after {
     content: '';
-    border: solid #1F94B7;
+    border: solid #007bff;
     border-width: 0 1px 1px 0;
     display: inline-block;
     padding: 4px;
@@ -2443,7 +2443,7 @@ input[type=number] {
     }
     .destinations .card-title{
       font-weight: bold;
-      color: #1F94B7;
+      color: #007bff;
     }
     .size-card img{
         height: 13.8rem;
@@ -2520,7 +2520,7 @@ input[type=number] {
     margin-top: 1rem;
     }
     .recommed .post-wrap .calend{
-      color: #1F94B7;
+      color: #007bff;
     }
     
     .recommed .post-wrap__title i {
@@ -2543,7 +2543,7 @@ input[type=number] {
     
    .recommed .post-wrap .post-wrap__right .price {
         font-size: 40px;
-        color: #1F94B7;
+        color: #007bff;
     }
 
     .world .txt{
@@ -2718,7 +2718,7 @@ input[type=number] {
 }
 
 .payment_metod .radio_group label input:checked+span {
-  background-color: #1F94B7;
+  background-color: #007bff;
   color: white;
 }
 
@@ -2848,8 +2848,8 @@ input[type=number] {
 }
 
 .ticket_info .hotel_name {
-  background-color: #1F94B7;
-  border: 1px solid #1F94B7;
+  background-color: #007bff;
+  border: 1px solid #007bff;
   color: white;
   border-radius: 10px;
   padding: 0.5rem 1.5rem 0;
@@ -2885,7 +2885,7 @@ input[type=number] {
 }
 
 .ticket_info .check_date>div span:nth-child(2) {
-  color: #1F94B7;
+  color: #007bff;
 }
 
 .ticket_info .included_comp>div {
@@ -2893,7 +2893,7 @@ input[type=number] {
 }
 
 .ticket_info .included_comp .imp_info {
-  color: #1F94B7;
+  color: #007bff;
 }
 
 .ticket_info .included_comp>div>span {
@@ -2959,7 +2959,7 @@ input[type=number] {
 }
 
 .ticket_info .total_payment div>p:last-child {
-  color: #1F94B7;
+  color: #007bff;
   font-size: 28px;
 }
 
@@ -2977,7 +2977,7 @@ input[type=number] {
 }
 
 .ticket_info .ticket_content>span {
-  color: #1F94B7;
+  color: #007bff;
   margin-top: 1rem;
   display: block;
 }
@@ -3038,7 +3038,7 @@ input[type=number] {
   height: 3px;
   width: 100%;
   max-width: 435px;
-  background: #1F94B7;
+  background: #007bff;
   position: absolute;
   border-radius: 5px;
   bottom: 0;
@@ -3057,7 +3057,7 @@ input[type=number] {
 }
 
 .breadcrumb_wrapper ul .active_li {
-  color: #1F94B7 !;
+  color: #007bff !;
 }
 
 .breadcrumb_wrapper ul .inactive {
@@ -3081,7 +3081,7 @@ input[type=number] {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 15px;
-  background-color: #1F94B7;
+  background-color: #007bff;
   border-radius: 10px;
   padding: 2rem;
   text-align: center;
@@ -3115,7 +3115,7 @@ input[type=number] {
 
 .extra_service_section .service .modal-header>span {
   color: #F1B640;
-  border: 1px solid #1F94B7;
+  border: 1px solid #007bff;
   border-radius: 50%;
   width: 45px;
   height: 45px;
@@ -3138,7 +3138,7 @@ input[type=number] {
 }
 
 .extra_service_section .service .modal-body .collapse_header {
-  background-color: #1F94B7;
+  background-color: #007bff;
   color: white;
   box-shadow: 0 2px 6px #222222;
 }
@@ -3170,7 +3170,7 @@ input[type=number] {
 
 .extra_service_section .sms_warning {
   display: flex;
-  border: 1px solid #1F94B7;
+  border: 1px solid #007bff;
   border-radius: 5px;
   padding: 1rem;
   margin: 2rem 0;
@@ -3181,7 +3181,7 @@ input[type=number] {
 }
 
 .extra_service_section .sms_warning .sms_text h4 {
-  color: #1F94B7;
+  color: #007bff;
   font-weight: bold;
 }
 
@@ -3237,7 +3237,7 @@ input[type=number] {
 }
 .flight_info_section .flight_header {
   text-align: center;
-  background-color: #1F94B7;
+  background-color: #007bff;
   color: white;
   padding: 2rem;
   position: relative;
@@ -3255,7 +3255,7 @@ input[type=number] {
   margin-left: -30px;
   border-width: 2rem;
   border-style: solid;
-  border-color: transparent #1F94B7 #1F94B7 transparent;
+  border-color: transparent #007bff #007bff transparent;
   transform: rotate(45deg);
   border-radius: 5px 0;
 }
@@ -3279,7 +3279,7 @@ input[type=number] {
 }
 
 .flight_info_section .ticket_item_wrap {
-  border: 1px solid #1F94B7;
+  border: 1px solid #007bff;
   border-radius: 5px;
   background-color: white;
   padding: 1rem;
@@ -3300,12 +3300,12 @@ input[type=number] {
 
 .flight_info_section .ticket_item_wrap::before {
   top: -6px;
-  border-color: transparent #1F94B7 #1F94B7 transparent;
+  border-color: transparent #007bff #007bff transparent;
 }
 
 .flight_info_section .ticket_item_wrap::after {
   bottom: -6px;
-  border-color: #1F94B7 transparent transparent #1F94B7;
+  border-color: #007bff transparent transparent #007bff;
   background-color: white;
 }
 
@@ -3349,7 +3349,7 @@ input[type=number] {
 }
 
 .ticket_item .ticket_item_time span {
-  color: #1F94B7;
+  color: #007bff;
   font-size: 14px;
   display: block;
   padding: 6px 0;
@@ -3361,7 +3361,7 @@ input[type=number] {
 
 .ticket_item .ticket_item_time .ticket_item-line {
   width: 92px;
-  background: #1F94B7;
+  background: #007bff;
   height: 1px;
   margin: auto;
   position: relative;
@@ -3491,7 +3491,7 @@ input[type=number] {
 }
 
 .flight_info_section .passenger_list .card-header {
-  background-color: #1F94B7;
+  background-color: #007bff;
   box-shadow: 0 2px 10px #222222;
   color: white;
   z-index: 5;
@@ -3539,7 +3539,7 @@ input[type=number] {
   border-radius: 5px;
   padding: 10px 3rem;
   background-color: #F1F2F8;
-  color: #1F94B7;
+  color: #007bff;
   font-size: 18px;
 }
 
@@ -3592,7 +3592,7 @@ input[type=number] {
 }
 .flight_info_section .flight_info_aside .extra_info{
   text-align: center;
-  color: #1F94B7;
+  color: #007bff;
   margin-bottom: 10px;
 }
 .flight_info_aside .services .card-header div,
@@ -3602,7 +3602,7 @@ input[type=number] {
   color: #222222;
 }
 .flight_info_aside .services .card-header div >span{
-  color: #1F94B7;
+  color: #007bff;
 }
 .flight_info_aside .services .card-body p{
   margin-bottom: 5px;
@@ -3614,7 +3614,7 @@ input[type=number] {
   font-size: 18px;
 }
 .flight_info_aside .passengers .passenger_name span{
-  color: #1F94B7;
+  color: #007bff;
 }
 .flight_info_aside .passengers .passenger_1 .luggage:not(:last-child){
   border-bottom: 1px solid #AEAEAE;
@@ -3631,7 +3631,7 @@ input[type=number] {
 .flight_info_aside .services .total_price{
   display: flex;
   justify-content: space-between;
-  color: #1F94B7;
+  color: #007bff;
   font-size: 20px;
   margin: 2rem 0;
 }
