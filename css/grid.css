@@ -102,7 +102,9 @@ select {
     }
 }
   
-  
+  .travelomnia__header__container__account{
+      width: 26%;
+  }
   
    select option {
     padding: 0;
@@ -113,7 +115,7 @@ select {
   }
 
   .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
-      width: 50px !important;
+      margin: 0 23px 0 0;
   }
 
   .btn-light.dropdown-toggle:focus{
@@ -127,8 +129,7 @@ select {
 
 
   #ui-datepicker-div{
-      position: absolute !important;
-      top: 300px !important;
+     margin: 50px 0;
   }
 
   .ui-datepicker .ui-datepicker-header {
@@ -226,11 +227,30 @@ display: none;
     padding: 10px 5px !important;
 }
 
+.nights{
+    font-size: 13px !important;
+    color: gray !important;
+}
 
 
-
-@media only screen and (max-width: 1199px){
+@media only screen and (min-width: 1002px) and (max-width: 1199px){
     .travelomnia__header__container__logo {
         width: 4.875rem !important;
     }
+
+    .nights{
+        font-size: 9px !important;
+    }
+}
+
+.modal{
+    overflow-y: scroll !important;
+}
+
+.bor{
+    border: 1px solid #F1B640 !important;
+}
+
+.bootstrap-select>.dropdown-toggle{
+    margin: 0;
 }
