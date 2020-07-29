@@ -64,4 +64,8 @@
             text-align: center;
         }
     }
+
+    .flight_info_section .passenger_info input{
+        text-align: center !important;
+    }
     

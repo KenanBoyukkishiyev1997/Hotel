@@ -1548,6 +1548,7 @@ form .input_wrapper {
   height: 45px;
   border: 1px solid #EAEAEA;
   border-radius: 5px;
+  text-align: center;
   padding: 5px 1rem;
   width: 100%;
 }
@@ -2667,6 +2668,7 @@ input[type=number] {
 .reservation_payment .guest_information_input select {
   width: 100%;
   height: 45px;
+  text-align: center;
   border: 1px solid #F1B640;
   border-radius: 3px;
 }
@@ -3513,6 +3515,7 @@ input[type=number] {
 .flight_info_section .passenger_info select {
   height: 45px;
   border-radius: 5px;
+  text-align: center;
   padding: 5px 1rem;
   width: 100%;
   font-size: 14px;
