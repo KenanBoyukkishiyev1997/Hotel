@@ -75,6 +75,10 @@
     .cenetr_mob{
         text-align: center;
     }
+    .modal_box{
+        margin: auto;
+        text-align: center;
+    }
 }
 
 select {
