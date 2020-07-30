@@ -22,12 +22,7 @@ const outputHtml = matches => {
         const html = matches.map(
             matc => `
         <div class=' d-flex justify-content-between m-1 k' style='background-color: #fff;padding: 1rem 2rem;' >
-            <div>
-            <h4>${matc.name}  </h4>
-            
-            </div>
-
-            <div><h4>(${matc.abbr})  </h4></div>
+            <h4>${matc.name}  <em>(${matc.abbr})  </em> </h4>
             
         </div>
         `).join('');
