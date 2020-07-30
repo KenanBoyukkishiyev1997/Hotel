@@ -23,6 +23,22 @@
       <img class="logo-nav" alt="travelomnia-logo" src="img/logo.png">
       <div class="menu-bg"></div>
       <div class="menu-burger">☰</div>
+      <div class="travelomnia__header__container__account__noauth acauntRes" style="position: absolute; top:25px; right: -50px;">
+        <div class="pure-css-nav mb-5">
+          <nav>
+            <ul>
+              <li style="background-color: transparent; border-radius: 50%; height: 50px; width: 50px;">
+                <a href="#"><i class="fas fa-user"></i></a>
+                <ul>
+                  <li class="signIn"><a href="#">Sign in</a></li>
+                  <li><a href="#">Sign up</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      
       <div class="travelomnia__header__container menu-items">
         <img class="travelomnia__header__container__logo" alt="travelomnia-logo" src="img/logo.png">
         <div class="travelomnia__header__container__nav pure-css-nav">
@@ -60,7 +76,7 @@
               <img src="img/logo.png" alt="avatar" class="travelomnia__header__container__account__auth__user__avatar">
             </span>
           </div>
-          <div class="travelomnia__header__container__account__noauth">
+          <div class="travelomnia__header__container__account__noauth accountDesk">
             <div class="pure-css-nav mb-5">
               <nav>
                 <ul>
@@ -97,8 +113,7 @@
                     <span>
                       <i class="fas fa-map-marker-alt" style="float: left; padding: 20px;"></i>
                     </span>
-                    <input type="text" class="form-control text-center" placeholder=" Where are you going? ">
-
+                    <input type="search" id="form-autocomplete-1" class="form-control text-center mdb-autocomplete" placeholder=" Where are you going? ">
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-12 col-12 txt">
@@ -502,8 +517,9 @@
   <!-- <script>
   $('.c-datepicker').pickadate();
 </script> -->
-  <script src="./js/singIn.js"></script>
+<script src="./js/singIn.js"></script>
 <script src="./js/counter.js"></script>
+<script src="./js/country.js"></script>
 
   <script>
     $(document).ready(function () {
